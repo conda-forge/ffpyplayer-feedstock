@@ -1,7 +1,11 @@
 c_compiler:
 - vs2015
+channel_sources:
+- conda-forge,defaults
+channel_targets:
+- conda-forge main
 ffmpeg:
-- '4.0'
+- '4.1'
 pin_run_as_build:
   ffmpeg:
     max_pin: x.x
@@ -9,7 +13,7 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
-- '3.5'
+- '3.7'
 zip_keys:
 - - python
   - c_compiler
