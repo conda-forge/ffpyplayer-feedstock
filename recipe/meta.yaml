@@ -49,7 +49,6 @@ test:
     - examples
     - ffpyplayer/tests/test_pic.py
     - ffpyplayer/tests/test_write.py
-    - ffpyplayer/tests/test_play.py
 
 about:
   home: https://github.com/matham/ffpyplayer
