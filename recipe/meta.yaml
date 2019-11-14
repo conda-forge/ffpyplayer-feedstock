@@ -20,7 +20,7 @@ requirements:
   host:
     - python
     - pip
-    - nose
+    - pytest
     - cython
     - sdl2
     - sdl2_mixer
@@ -41,14 +41,15 @@ test:
   imports:
     - ffpyplayer.player
   commands:
-    - nosetests ffpyplayer/tests
+    - pytest ffpyplayer/tests
     - python -c "import ffpyplayer"
   requires:
-    - nose
+    - pytest
   source_files:
     - examples
     - ffpyplayer/tests/test_pic.py
     - ffpyplayer/tests/test_write.py
+    - ffpyplayer/tests/test_play.py
 
 about:
   home: https://github.com/matham/ffpyplayer
