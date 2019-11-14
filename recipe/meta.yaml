@@ -27,7 +27,7 @@ requirements:
     - ffmpeg
     - libflac  # [win]
     - libvorbis  # [win]
-    - pkgconfig
+    - pkg-config
     - msinttypes  # [win]
   run:
     - python
