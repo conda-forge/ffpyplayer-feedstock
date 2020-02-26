@@ -1,6 +1,6 @@
 {% set name = "ffpyplayer" %}
-{% set version = "4.3.0" %}
-{% set sha256 = "e24d0a08c46d3cc14e76e1e7722711d42cb16c68b4df5edb908497a047b6b191" %}
+{% set version = "4.3.1" %}
+{% set sha256 = "22911ab937023a552316d7ab0b3f5a9a2dedf0d0765fbfa4705213c0300cf469" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
 
 build:
   number: 0
-  skip: True  # [py < 35]
+  skip: true  # [py < 35]
 
 requirements:
   build:
@@ -55,7 +55,7 @@ about:
   license: LGPL-3.0
   license_family: LGPL
   license_file: COPYING
-  summary: 'A cython implementation of ffmpeg based player, ffplay'
+  summary: A cython implementation of ffmpeg based player, ffplay
 
   description: |
     FFPyPlayer is a python binding for the FFmpeg library for playing and writing
