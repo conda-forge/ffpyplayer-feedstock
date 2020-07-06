@@ -5,7 +5,7 @@ Home: https://github.com/matham/ffpyplayer
 
 Package license: LGPL-3.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A cython implementation of ffmpeg based player, ffplay
 
