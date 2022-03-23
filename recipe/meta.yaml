@@ -1,6 +1,6 @@
 {% set name = "ffpyplayer" %}
-{% set version = "4.3.2" %}
-{% set sha256 = "fb55c72920da23fe9f31c7b3c740fb26aa3a688d34c271356f2e12c101b0d7a1" %}
+{% set version = "4.3.4" %}
+{% set sha256 = "4889add255ded2b773731c858c1a8adb489a9223bacd0778062278de826b8af7" %}
 
 package:
   name: {{ name|lower }}
