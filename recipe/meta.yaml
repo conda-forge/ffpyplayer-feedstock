@@ -30,6 +30,7 @@ requirements:
     - pkg-config
     - msinttypes  # [win]
     - pulseaudio  # [linux]
+    - alsa-lib  # [linux]
   run:
     - python
     - sdl2
@@ -38,6 +39,7 @@ requirements:
     - libflac  # [win]
     - libvorbis  # [win]
     - pulseaudio  # [linux]
+    - alsa-lib  # [linux]
 
 test:
   imports:
