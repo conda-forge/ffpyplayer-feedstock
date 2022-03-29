@@ -29,7 +29,6 @@ requirements:
     - libvorbis  # [win]
     - pkg-config
     - msinttypes  # [win]
-    - pulseaudio  # [linux]
     - alsa-lib  # [linux]
   run:
     - python
@@ -38,14 +37,12 @@ requirements:
     - ffmpeg
     - libflac  # [win]
     - libvorbis  # [win]
-    - pulseaudio  # [linux]
-    - alsa-lib  # [linux]
 
 test:
   imports:
     - ffpyplayer.player
   commands:
-    - pytest ffpyplayer/tests
+    - SDL_AUDIODRIVER=alsa pytest ffpyplayer/tests
     - python -c "import ffpyplayer"
   requires:
     - pytest
