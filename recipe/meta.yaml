@@ -29,6 +29,7 @@ requirements:
     - libvorbis  # [win]
     - pkg-config
     - msinttypes  # [win]
+    - pulseaudio  # [linux]
   run:
     - python
     - sdl2
@@ -36,6 +37,7 @@ requirements:
     - ffmpeg
     - libflac  # [win]
     - libvorbis  # [win]
+    - pulseaudio  # [linux]
 
 test:
   imports:
