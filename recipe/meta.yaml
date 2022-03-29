@@ -45,7 +45,7 @@ test:
   imports:
     - ffpyplayer.player
   commands:
-    - SDL_AUDIODRIVER=pulseaudio pytest ffpyplayer/tests
+    - SDL_AUDIODRIVER=alsa pytest ffpyplayer/tests
     - python -c "import ffpyplayer"
   requires:
     - pytest
