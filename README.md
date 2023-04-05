@@ -1,11 +1,11 @@
-About ffpyplayer
-================
+About ffpyplayer-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ffpyplayer-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/matham/ffpyplayer
 
 Package license: LGPL-3.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ffpyplayer-feedstock/blob/main/LICENSE.txt)
 
 Summary: A cython implementation of ffmpeg based player, ffplay
 
