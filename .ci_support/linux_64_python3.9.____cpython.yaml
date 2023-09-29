@@ -17,10 +17,13 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
-- 3.9.* *_73_pypy
+- 3.9.* *_cpython
 sdl2:
 - '2'
 sdl2_mixer:
 - '2'
 target_platform:
 - linux-64
+zip_keys:
+- - python
+  - channel_sources

@@ -5,7 +5,7 @@ c_compiler:
 c_compiler_version:
 - '15'
 channel_sources:
-- conda-forge
+- conda-forge/label/python_rc,conda-forge
 channel_targets:
 - conda-forge main
 ffmpeg:
@@ -17,10 +17,13 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
-- 3.8.* *_73_pypy
+- 3.12.* *_cpython
 sdl2:
 - '2'
 sdl2_mixer:
 - '2'
 target_platform:
 - osx-64
+zip_keys:
+- - python
+  - channel_sources
