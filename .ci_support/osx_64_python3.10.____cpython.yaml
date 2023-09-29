@@ -9,7 +9,7 @@ channel_sources:
 channel_targets:
 - conda-forge main
 ffmpeg:
-- '5'
+- '6'
 macos_machine:
 - x86_64-apple-darwin13.4.0
 pin_run_as_build:
@@ -17,10 +17,13 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
-- 3.11.* *_cpython
+- 3.10.* *_cpython
 sdl2:
 - '2'
 sdl2_mixer:
 - '2'
 target_platform:
 - osx-64
+zip_keys:
+- - python
+  - channel_sources
