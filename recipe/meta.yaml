@@ -21,7 +21,8 @@ requirements:
   host:
     - python
     - pip
-    - cython
+    # Cython 3.x does not compile the current pyx code.
+    - cython !=3.0.*,!=3.1.*
     - setuptools
     - sdl2
     - sdl2_mixer
