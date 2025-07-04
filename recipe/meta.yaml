@@ -25,7 +25,8 @@ requirements:
     - setuptools
     - sdl2
     - sdl2_mixer
-    - ffmpeg
+    # https://github.com/matham/ffpyplayer/issues/166
+    - ffmpeg <7.0
     - libflac  # [win]
     - libvorbis  # [win]
     - pkg-config
@@ -34,7 +35,8 @@ requirements:
     - python
     - sdl2
     - sdl2_mixer
-    - ffmpeg
+    # https://github.com/matham/ffpyplayer/issues/166
+    - ffmpeg <7.0
     - libflac  # [win]
     - libvorbis  # [win]
 
