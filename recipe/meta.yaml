@@ -17,11 +17,12 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - python
     - pip
-    - pytest
     - cython
+    - setuptools
     - sdl2
     - sdl2_mixer
     - ffmpeg
@@ -52,7 +53,7 @@ test:
 
 about:
   home: https://github.com/matham/ffpyplayer
-  license: LGPL-3.0
+  license: LGPL-3.0-only
   license_family: LGPL
   license_file: COPYING
   summary: A cython implementation of ffmpeg based player, ffplay
