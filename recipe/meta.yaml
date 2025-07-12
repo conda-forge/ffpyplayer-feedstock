@@ -49,6 +49,7 @@ test:
     - python -c "import ffpyplayer"
   requires:
     - pytest
+    - ffmpeg =*=lgpl*
   source_files:
     - examples
     - ffpyplayer/tests/test_pic.py
