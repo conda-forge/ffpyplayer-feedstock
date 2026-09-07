@@ -6,6 +6,8 @@ channel_sources:
 - conda-forge
 channel_targets:
 - conda-forge main
+libflac:
+- '1.5'
 pin_run_as_build:
   python:
     min_pin: x.x
@@ -18,3 +20,6 @@ sdl2_mixer:
 - '2'
 target_platform:
 - win-64
+zip_keys:
+- - python
+  - channel_sources
